@@ -1,0 +1,29 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "brunch watch --server",
+    "test": "karma start ./karma.config.js",
+    "prod": "brunch build --env production",
+    "postprod": "cordova build android"
+  },
+  "devDependencies": {
+    "angularjs-templates-brunch": ">= 0.0.3",
+    "auto-reload-brunch": ">= 1.0 < 1.8",
+    "brunch": "^2.0",
+    "clean-css-brunch": ">= 1.0 < 1.8",
+    "http-server": "^0.7.5",
+    "jasmine-core": "^2.2.0",
+    "javascript-brunch": ">= 1.0 < 1.8",
+    "jshint-brunch": "^1.8.0",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-cli": "0.0.4",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "sass-brunch": "^1.8.9",
+    "uglify-js-brunch": ">= 1.0 < 1.8",
+    "css-brunch": "^1.7.0",
+    "environment-brunch": "^1.0.0"
+  }
+}

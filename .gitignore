@@ -1,0 +1,9 @@
+node_modules/
+bower_components/
+public/
+www/
+platforms/
+plugins/
+
+*.iml
+.idea/
